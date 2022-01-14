@@ -57,9 +57,9 @@ Basic form fields username, email, mobile number, make sure to wire up the form 
 
 ###This is the mobile design. [PSD Download](https://s3-eu-west-1.amazonaws.com/hc-staticbucket/hellocomputer-interview-test/01_dev-challenge-mobile.psd)
 
-![01_dev-challenge-desktop.jpg](https://bitbucket.org/repo/4pMMRa4/images/2721997458-01_dev-challenge-desktop.jpg)
+![01_dev-challenge-desktop.jpg](https://github.com/hellocomputer-za/hc-react-fullstack-assesment/blob/main/2721997458-01_dev-challenge-desktop.jpg)
 
-![01_dev-challenge-mobile.jpg](https://bitbucket.org/repo/4pMMRa4/images/3342677465-01_dev-challenge-mobile.jpg)
+![01_dev-challenge-mobile.jpg](https://github.com/hellocomputer-za/hc-react-fullstack-assesment/blob/main/3342677465-01_dev-challenge-mobile.jpg)
 
 ###This is the recipe page.
-![recipeapp.jpg](https://bitbucket.org/repo/4pMMRa4/images/278010508-recipeapp.jpg)
+![recipeapp.jpg](https://github.com/hellocomputer-za/hc-react-fullstack-assesment/blob/main/278010508-recipeapp.jpg)
