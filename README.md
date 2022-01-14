@@ -35,7 +35,7 @@ Please create a detail page for the gallery items on the home page (new URL/deta
 Add hovers with CSS animations for the gallery items.
 
 ### *Contact section* ###
-Basic form fields username, email, mobile number, make sure to wire up the form and have it submit in email format to this mailbox (DevAdminCPT@hellofcb.com)
+Basic form fields username, email, mobile number, make sure to wire up the form and have it submit in email format to this mailbox (me@nickbester.com)
 
 ## **Requirements for this app are as follows:** ##
 
