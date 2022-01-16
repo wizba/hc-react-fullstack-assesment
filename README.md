@@ -2,7 +2,7 @@
 
 Below you will find two basic designs; 1 desktop and 1 mobile, these will need to be built responsively using custom media quires, try not to use bootstrap.
 
-Create a Github public repository for the application, also share access to this repo to me@nickbester.com
+Create a Github public repository for the application, also share access to this repo to nicholas.bester
 You have to make commits every time you create a specific feature - We want to see some indication of Git knowledge
 
 ## **Assesment Time** ##
