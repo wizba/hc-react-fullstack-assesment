@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.google.com/specimen/Rakkas');
+@import url('https://fonts.google.com/specimen/Source+Sans+Pro');
+@import '~keen-slider/keen-slider.min.css';
+body{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+.weava-drop-area-wrapper{
+    display:none;
+}
+
+.position__absolute{
+    position: absolute;
+}
+.position_relative{
+    position: relative;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-content-center{
+    align-items: center;
+} 
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#read__more{
+    width: 170px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+.normal-text{
+    color: whitesmoke;
+}
+.mt{
+    margin-top: 25px;
+}
+.p{
+    padding: 5px 30px;
+}
+
+@media  (min-width: 900px) {
+    .ov-content{
+        width: 35%;
+        height: 100px;
+        padding-top: 150px;
+    }
+
+    .p{
+        padding: 5px 0px 0 173px;
+
+    }
+    .p-nav{
+        padding: 5px 173px;
+    }
+  
+}
