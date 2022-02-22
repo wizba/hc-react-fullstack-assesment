@@ -83,6 +83,9 @@ body{
     justify-content: center;
 }
 
+.table-section{
+    display: none;
+}
 @media  (min-width: 900px) {
     .ov-content{
         width: 35%;
@@ -97,6 +100,17 @@ body{
     .p-nav{
         padding: 5px 173px;
     }
+
+    .table-section{
+        display: block;
+        width: 100%;
+        table{
+            width: 100%;
+        }
+    }
+    
   
 }
+
+
 
