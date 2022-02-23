@@ -6,6 +6,7 @@ body{
     
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
+    font-size: large !important;
 }
 
 .weava-drop-area-wrapper{
@@ -86,6 +87,11 @@ body{
 .table-section{
     display: none;
 }
+
+.mr{
+    margin-right: 173px;
+}
+
 @media  (min-width: 900px) {
     .ov-content{
         width: 35%;
@@ -108,9 +114,9 @@ body{
             width: 100%;
         }
     }
-    
+    .mr{
+        margin-right: 30px;
+    }
   
 }
-
-
 

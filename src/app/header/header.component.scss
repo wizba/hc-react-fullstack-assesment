@@ -65,3 +65,38 @@
         }
     }
 }
+
+.mr{
+    margin-right: 173px;
+}
+
+
+@media (max-width: 768px) {
+    #table{
+        width: 100%;
+        thead{
+            display: none;
+        }
+        tbody,tr,td{
+            display: block;
+           
+            border: none;
+            text-align: left;
+            font-size: 18px;
+           
+        }
+    }
+    .table-cover{
+        width: 90%;
+    
+    }
+
+    form{
+        width: 90%;
+    }
+    .mr{
+        margin-right: 30px;
+    }
+   
+    
+}

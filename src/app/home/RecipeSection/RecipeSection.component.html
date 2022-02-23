@@ -21,7 +21,7 @@
 </div>
 <!-- Search recipe section -->
 <div class="d-flex" style="justify-content: center;margin-top: 40px;">
-    <form class="custom__form" style="width: 30%;">
+    <form class="custom__form" >
       <div class="d-flex" style="margin-top: 10px;">
       
           <label for="inputPassword" style="width:35%"  class="d-flex">Title <span>*</span></label>
@@ -59,25 +59,71 @@
 </div>
 
 <!-- TABLE -->
-<div class="table-section d-flex justify-content-center">
-  <table id="table">
-    <tr class="header-row">
-      <th class="header-item items">Title</th>
-      <th class="header-item items">Type</th>
-      <th class="header-item items">Realesed</th>
-      <th class="header-item items">Actions</th>
+<div class="d-flex justify-content-center">
+  <form class="custom__form" >
+    <div class="d-flex justify-content-end" style="margin-top: 10px;">
+    
+        <label for="inputPassword" style="width:10%;margin-right: 10px;"  class="d-flex justify-content-end">Search</label>
+     
+     
+    
+        <input class="custume_form_controller" style="width:40%" type="text"   />
       
-  </tr>
+    </div>
+  </form>
+</div>
 
+<div class="d-flex justify-content-center">
+  <div class="table-cover">
+    <table id="table">
+      <thead>
+        <tr class="header-row">
+        <th class="header-item items">Title</th>
+        <th class="header-item items">Type</th>
+        <th class="header-item items">Realesed</th>
+        <th class="header-item items">Actions</th>
+        
+    </tr>
+  </thead>
+
+<tbody>
   <tr *ngFor="let i of [1,23,4,5,6,7,8,9,10]" class="table-rows">
-    <td class="items">XXA</td>
-    <td class="items">AUSENCO</td>
-    <td class="items">AUSENCO</td>
-    <td class="items">AUSENCO</td>
+    <td data-label="Title" class="items">XXA</td>
+    <td data-label="Type" class="items">AUSENCO</td>
+    <td data-label="Realesed" class="items">AUSENCO</td>
+    <td  data-label="Actions" class="items">AUSENCO</td>
   </tr>
 
-  
-  </table>
+</tbody>  
+   
+    
+    </table>
+  </div>
+ 
 
+</div>
+
+
+<div class="gallery-section justify-content-center">
+  <div style="text-align: center;">
+    <h1>Gallery</h1>
+  </div>
+     <div class="d-flex gallery justify-content-center">
+        <div id="img-column-1">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <div id="img-column-2">
+            <div></div>
+            <div></div>
+        </div>
+     </div>
 </div>
 
